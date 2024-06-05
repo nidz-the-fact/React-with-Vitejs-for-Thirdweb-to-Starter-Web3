@@ -1,64 +1,93 @@
+# React-with-Vitejs-for-Walletconnect-to-Starter-Web3
+Template starter easily Developer friendly every knowledge level to build onchain Web3 applications with Thirdweb. (https://portal.thirdweb.com/)
 
-![tw-banner](https://github.com/thirdweb-example/vite-starter/assets/57885104/cfe2164b-b50b-4d8e-aaaa-31331da2d647)
+<br/>
 
-# vite-starter
+<p align="center">
+  <a href="https://linktr.ee/nid_z">
+      <picture>
+        <img alt="logo" src="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/nidz-the-fact-cover.png" width="100%" height="400">
+      </picture>
+</a>
+</p>
 
-Starter template to build onchain applications with [thirdweb](https://thirdweb.com) and [vite](https://vitejs.dev/). 
+Libraries, frameworks that are perfect and comprehensive. Can be used in a variety of ways.
 
-## Features 
+<pre>
+├── <b>📖 Libraries, frameworks</b>
+│   ├── <b><a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">React</a>:</b>: with Vitejs.
+│   ├─── <b>CSS</b>
+│   ├──── <b><a href="https://tailwindcss.com/docs/guides/vite">Tailwind</a>:</b>: Css styles.
+│   ├──── <b><a href="https://daisyui.com/docs/install/">daisyUI</a>:</b>: Css styles + plugin.
+│   ├──── <b><a href="https://v2.chakra-ui.com/getting-started/vite-guide">Chakra UI</a>:</b>: UI Css speed.
+│   ├── <b><a href="https://portal.thirdweb.com/typescript/v5">Thirdweb</a>:</b>: Connect web3 Blockchain with Thirdweb SDK.
+│   ├── <b><a href="https://wagmi.sh/react/getting-started">Wagmi</a>:</b>: Type Safe, Extensible, and Modular by design. Build high-performance blockchain frontends.
+│   ├── <b><a href="https://viem.sh/docs/installation">Viem</a>:</b>: Build reliable apps & libraries with lightweight, composable, and type-safe modules that interface with Ethereum.
+</pre>
 
-- thirdweb & vite pre-installed and configured to reduce setup steps
-- ConnectButton to onboard users to your application
+## 🔧 Stacks
 
-## Installation
+<a href="https://react.dev/">
+  <picture>
+    <img alt="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s" width="auto" height="50">
+  </picture>
+</a>
+<a href="https://tailwindcss.com/">
+  <picture>
+    <img alt="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s" width="auto" height="50">
+  </picture>
+</a>
+<a href="https://daisyui.com/">
+  <picture>
+    <img alt="logo" src="https://raw.githubusercontent.com/saadeghi/daisyui-images/master/images/daisyui-logo/favicon-192.png" width="auto" height="50">
+  </picture>
+</a>
+<a href="https://v2.chakra-ui.com/">
+  <picture>
+    <img alt="logo" src="https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg" width="auto" height="50">
+  </picture>
+</a>
+<a href="https://thirdweb.com/">
+  <picture>
+    <img alt="logo" src="https://avatars.githubusercontent.com/u/79496167?s=280&v=4" width="auto" height="50">
+  </picture>
+</a>
+<a href="https://wagmi.sh/">
+  <picture>
+    <img alt="logo" src="https://moralis.io/wp-content/uploads/web3wiki/196-wagmi/637e6c001c60c5e2d8078d8c_wOdHswYe73lnRqkKuJDsSLgwRkQ9Kt831G_9nSGTEFw.png" width="auto" height="50">
+  </picture>
+</a>
+<a href="https://viem.sh/">
+  <picture>
+    <img alt="logo" src="https://viem.sh/icon-light.png" width="auto" height="50">
+  </picture>
+</a>
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+## ⚙️ Settings
 
-```bash
-  npx thirdweb create app --vite
+<pre>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/.env"><b>1.Define api in .env</b></a>
+├── <a href=""><b>2.`npm install` & `npm run dev` : To start the server in development.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/main.jsx#L14C1-L14C84"><b>3.Network adjustment.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/main.jsx#L38C1-L51C3"><b>4.Set additional information for your network.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/tree/main/src/components"><b>5.Manage components for each page as needed.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/Blockchain/ReadContract.jsx"><b>6.Example of reading and calling functions from Smart contract.</b></a>
+├── <a href=""><b>7.`npm run build` : You will get a dist file and upload it to the website.</b></a>
+</pre>
+
+## ⚒️ Use deployment
+
+```
+npx degit https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3 your-name-project
+```
+or
+```
+git clone https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3.git
 ```
 
-## Environment Variables
+---
 
-To run this project, you will need to add the following environment variables to your .env file:
-
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
-
-```bash
-yarn
+💻💖☕ by [Nidz The Fact](https://linktr.ee/nid_z) 🙏
 ```
-
-Start development server
-
-```bash
-yarn dev
+0x361ef0829E71b3bBc806C224ffcecc97813f93cB
 ```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn preview
-```
-
-## Additional Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
