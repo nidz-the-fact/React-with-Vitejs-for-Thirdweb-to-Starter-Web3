@@ -1,97 +1,76 @@
-import { ConnectButton } from "thirdweb/react";
-import thirdwebIcon from "./thirdweb.svg";
+import { ConnectButton, ConnectEmbed } from "thirdweb/react";
 import { client } from "./client";
+import { defineChain } from "thirdweb";
+import { createWallet, walletConnect } from "thirdweb/wallets";
+import Header from './components/Header';
+import { ThirdwebResources } from "./components/ThirdwebResources";
+import Footer from './components/Footer'
+import Navbar from "./components/Navbar";
+
+// @title Determine the most comprehensive Network chains supported on Thirdweb from Chainlist.
+// @notice Import defineChain (import { defineChain } from "thirdweb";) and define network information.
+// 
+// @custom:tch  -  Set the name you want.
+// @custom:id  -  Set the chain ID code.
+// @custom:rpc  -  Set rpc chain link.
+// @custom:nativeCurrency{name, symbol} -  Set Name the native coin.
+const tch = defineChain({
+  id: 7,
+  rpc: `https://rpc.thaichain.org`,
+  nativeCurrency: {
+    name: "TCH",
+    symbol: "TCH",
+    decimals: 18,
+  },
+});
+
+const wallets = [
+  createWallet("io.metamask"),
+  createWallet("com.coinbase.wallet"),
+  walletConnect(),
+];
 
 export function App() {
   return (
-    <main className="p-4 pb-10 min-h-[100vh] flex items-center justify-center container max-w-screen-lg mx-auto">
-      <div className="py-20">
+      <div className="">
+      {/* 
+      // @title Determine the correct use of React components (<Header /> for example).
+      // @notice Import Header (import { defineChain } from "thirdweb";).
+      // 
+      // @custom:<Header />  -  Define code structure and usage data within components as designed.
+      // @custom:<ThirdwebResources />  -  Define code structure and usage data within components as designed.
+      // @custom:<Footer />  -  Define code structure and usage data within components as designed.
+      */}
+        <Navbar />
         <Header />
 
-        <div className="flex justify-center mb-20">
-          <ConnectButton
-            client={client}
-            appMetadata={{
-              name: "Example app",
-              url: "https://example.com",
-            }}
+      {/* 
+      // @title Use dependencies with Thirdweb SDK (https://thirdweb.com) for Web3 Blockchain.
+      // @notice import { ConnectButton } from "thirdweb/react"; Connect Web3 wallet.
+      // 
+      // @custom:<ConnectButton /> -  Set wallet you want.
+      // @custom:client -  Set the api key by .env.
+      // @custom:chain -  Set chain you want.
+      // @custom:wallets -  Set options wallet.
+         others.. https://portal.thirdweb.com/references/typescript/v5/ConnectButtonProps
+      */}
+        <div className="flex justify-center mb-10">
+          <ConnectEmbed 
+          client={client} 
+          wallets={wallets}
           />
         </div>
 
+        {/* insert */}
+        <div className="flex justify-center mb-10">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sa3wVykeJ3o?si=ukdsyrbM-ETXNQtv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        {/* insert */}
+        
         <ThirdwebResources />
+        <Footer />
+
       </div>
-    </main>
-  );
-}
 
-function Header() {
-  return (
-    <header className="flex flex-col items-center mb-20 md:mb-20">
-      <img
-        src={thirdwebIcon}
-        alt=""
-        className="size-[150px] md:size-[150px]"
-        style={{
-          filter: "drop-shadow(0px 0px 24px #a726a9a8)",
-        }}
-      />
-
-      <h1 className="text-2xl md:text-6xl font-bold tracking-tighter mb-6 text-zinc-100">
-        thirdweb SDK
-        <span className="text-zinc-300 inline-block mx-1"> + </span>
-        <span className="inline-block -skew-x-6 text-violet-500"> vite </span>
-      </h1>
-
-      <p className="text-zinc-300 text-base">
-        Read the{" "}
-        <code className="bg-zinc-800 text-zinc-300 px-2 rounded py-1 text-sm mx-1">
-          README.md
-        </code>{" "}
-        file to get started.
-      </p>
-    </header>
-  );
-}
-
-function ThirdwebResources() {
-  return (
-    <div className="grid gap-4 lg:grid-cols-3 justify-center">
-      <ArticleCard
-        title="thirdweb SDK Docs"
-        href="https://portal.thirdweb.com/typescript/v5"
-        description="thirdweb TypeScript SDK documentation"
-      />
-
-      <ArticleCard
-        title="Components and Hooks"
-        href="https://portal.thirdweb.com/typescript/v5/react"
-        description="Learn about the thirdweb React components and hooks in thirdweb SDK"
-      />
-
-      <ArticleCard
-        title="thirdweb Dashboard"
-        href="https://thirdweb.com/dashboard"
-        description="Deploy, configure, and manage your smart contracts from the dashboard."
-      />
-    </div>
-  );
-}
-
-function ArticleCard(props: {
-  title: string;
-  href: string;
-  description: string;
-}) {
-  return (
-    <a
-      href={props.href + "?utm_source=vite-template"}
-      target="_blank"
-      className="flex flex-col border border-zinc-800 p-4 rounded-lg hover:bg-zinc-900 transition-colors hover:border-zinc-700"
-    >
-      <article>
-        <h2 className="text-lg font-semibold mb-2">{props.title}</h2>
-        <p className="text-sm text-zinc-400">{props.description}</p>
-      </article>
-    </a>
   );
 }
