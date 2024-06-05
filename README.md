@@ -15,7 +15,7 @@ Libraries, frameworks that are perfect and comprehensive. Can be used in a varie
 
 <pre>
 ├── <b>📖 Libraries, frameworks</b>
-│   ├── <b><a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">React</a>:</b>: with Vitejs.
+│   ├── <b><a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">React</a></b>: with Vitejs.
 │   ├─── <b>CSS</b>
 │   ├──── <b><a href="https://tailwindcss.com/docs/guides/vite">Tailwind</a></b>: Css styles.
 │   ├──── <b><a href="https://daisyui.com/docs/install/">daisyUI</a></b>: Css styles + plugin.
