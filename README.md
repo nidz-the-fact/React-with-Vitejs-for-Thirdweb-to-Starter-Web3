@@ -1,4 +1,4 @@
-# React-with-Vitejs-for-Walletconnect-to-Starter-Web3
+# React-with-Vitejs-for-Thirdweb-to-Starter-Web3
 Template starter easily Developer friendly every knowledge level to build onchain Web3 applications with Thirdweb. (https://portal.thirdweb.com/)
 
 <br/>
@@ -17,12 +17,12 @@ Libraries, frameworks that are perfect and comprehensive. Can be used in a varie
 ├── <b>📖 Libraries, frameworks</b>
 │   ├── <b><a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">React</a>:</b>: with Vitejs.
 │   ├─── <b>CSS</b>
-│   ├──── <b><a href="https://tailwindcss.com/docs/guides/vite">Tailwind</a>:</b>: Css styles.
-│   ├──── <b><a href="https://daisyui.com/docs/install/">daisyUI</a>:</b>: Css styles + plugin.
-│   ├──── <b><a href="https://v2.chakra-ui.com/getting-started/vite-guide">Chakra UI</a>:</b>: UI Css speed.
-│   ├── <b><a href="https://portal.thirdweb.com/typescript/v5">Thirdweb</a>:</b>: Connect web3 Blockchain with Thirdweb SDK.
-│   ├── <b><a href="https://wagmi.sh/react/getting-started">Wagmi</a>:</b>: Type Safe, Extensible, and Modular by design. Build high-performance blockchain frontends.
-│   ├── <b><a href="https://viem.sh/docs/installation">Viem</a>:</b>: Build reliable apps & libraries with lightweight, composable, and type-safe modules that interface with Ethereum.
+│   ├──── <b><a href="https://tailwindcss.com/docs/guides/vite">Tailwind</a></b>: Css styles.
+│   ├──── <b><a href="https://daisyui.com/docs/install/">daisyUI</a></b>: Css styles + plugin.
+│   ├──── <b><a href="https://v2.chakra-ui.com/getting-started/vite-guide">Chakra UI</a></b>: UI Css speed.
+│   ├── <b><a href="https://portal.thirdweb.com/typescript/v5">Thirdweb</a></b>: Connect web3 Blockchain with Thirdweb SDK.
+│   ├── <b><a href="https://wagmi.sh/react/getting-started">Wagmi</a></b>: Type Safe, Extensible, and Modular by design. Build high-performance blockchain frontends.
+│   ├── <b><a href="https://viem.sh/docs/installation">Viem</a></b>: Build reliable apps & libraries with lightweight, composable, and type-safe modules that interface with Ethereum.
 </pre>
 
 ## 🔧 Stacks
@@ -66,12 +66,12 @@ Libraries, frameworks that are perfect and comprehensive. Can be used in a varie
 ## ⚙️ Settings
 
 <pre>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/.env"><b>1.Define api in .env</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/.env"><b>1.Define api in .env</b></a>
 ├── <a href=""><b>2.`npm install` & `npm run dev` : To start the server in development.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/main.jsx#L14C1-L14C84"><b>3.Network adjustment.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/main.jsx#L38C1-L51C3"><b>4.Set additional information for your network.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/tree/main/src/components"><b>5.Manage components for each page as needed.</b></a>
-├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Walletconnect-to-Starter-Web3/blob/main/src/Blockchain/ReadContract.jsx"><b>6.Example of reading and calling functions from Smart contract.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/src/components/Navbar.tsx#L9C1-L24C4"><b>3.Network adjustment.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/src/components/Navbar.tsx#L48C17-L69C23"><b>4.Set additional information for your network.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/tree/main/src/components"><b>5.Manage components for each page as needed.</b></a>
+├── <a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/src/main.tsx#L8C10-L8C24"><b>6.Example of reading and calling functions from Smart contract with Wagmi & Viem.</b></a>
 ├── <a href=""><b>7.`npm run build` : You will get a dist file and upload it to the website.</b></a>
 </pre>
 
