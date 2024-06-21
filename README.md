@@ -3,13 +3,26 @@ Template starter easily Developer friendly every knowledge level to build onchai
 
 <br/>
 
+
 <p align="center">
-  <a href="https://linktr.ee/nid_z">
+  <a href="https://www.youtube.com/watch?v=IliPcMyJDjI">
       <picture>
-        <img alt="logo" src="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/nidz-the-fact-cover.png" width="100%" height="400">
+        <img alt="logo" src="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/blob/main/youtube.png" width="40%" height="90">
       </picture>
+    🧑‍💻
 </a>
 </p>
+
+<div align="center">
+<a href="https://twitter.com/TeeraponNidz" ><img src="https://img.shields.io/twitter/follow/TeeraponNidz.svg?style=social" /></a>
+<a href="https://www.facebook.com/nid.muhammad" ><img src="https://img.shields.io/badge/Nidz-Facebook-blue" /></a>
+
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/stargazers"><img src="https://img.shields.io/github/stars/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3" alt="Stars Badge"/></a>
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/network/members"><img src="https://img.shields.io/github/forks/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3" alt="Forks Badge"/></a>
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/pulls"><img src="https://img.shields.io/github/issues-pr/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/issues"><img src="https://img.shields.io/github/issues/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3" alt="Issues Badge"/></a>
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3?color=2b9348"></a>
+</div>
 
 Libraries, frameworks that are perfect and comprehensive. Can be used in a variety of ways.
 
@@ -88,6 +101,9 @@ git clone https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Sta
 ---
 
 💻💖☕ by [Nidz The Fact](https://linktr.ee/nid_z) 🙏
+<br /><br />
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/stargazers"><img src="https://img.shields.io/github/stars/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3" alt="Stars Badge"/></a>
+<a href="https://github.com/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3/network/members"><img src="https://img.shields.io/github/forks/nidz-the-fact/React-with-Vitejs-for-Thirdweb-to-Starter-Web3" alt="Forks Badge"/></a>
 ```
 0x361ef0829E71b3bBc806C224ffcecc97813f93cB
 ```
